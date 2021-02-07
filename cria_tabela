@@ -1,0 +1,11 @@
+//Cria tabela do cadastro
+CREATE TABLE projeto1 (
+  nome varchar(10) COLLATE utf8_unicode_ci NOT NULL,
+  sobrenome varchar(15) COLLATE utf8_unicode_ci NOT NULL,
+  e-mail varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  celular varchar(10) COLLATE utf8_unicode_ci NOT NULL,
+  genero varchar(10) COLLATE utf8_unicode_ci NOT NULL,
+  datanasc varchar(15) COLLATE utf8_unicode_ci NOT NULL,
+  senha varchar(10) COLLATE utf8_unicode_ci NOT NULL,
+  codigo int(5) NOT NULL primary key AUTO_INCREMENT
+) 
